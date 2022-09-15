@@ -31,7 +31,9 @@ console.log(time.toLocaleTimeString())
 //Convierte time a string usando la espeficicacion local pero la fecha
 //2/6/2021
 console.log(time.toLocaleDateString())
-//Coge la diferencia en minutos entre el tiempo local de la computadora
+//Coge la diferencia en minutos 
+//entre el tiempo local de la 
+//computadora
 //y las coordenadas universales(UTC)
 console.log(time.getTimezoneOffset());
 //Coge el dia del mes usando las coordenadas universales(UTC)
@@ -44,4 +46,4 @@ console.log(time.getUTCHours());
 const hora=document.createElement('h1')
 document.body.appendChild(hora)
 
-hora.textContent ='La fecha de hoy es' + time.getDate() +'/'+(time.getMonth()+1)+'/'+time.getFullYear()
+hora.textContent ='La fecha de hoy es ' + time.getDate() +'/'+(time.getMonth()+1)+'/'+time.getFullYear()
